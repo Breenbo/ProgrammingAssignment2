@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
         inverse_x <- x$getInverse()
         ## veryfying cached matrix
         if (!is.null(inverse_x)) {
-                message("getting caching matrix")
+                message("bored to compute, getting caching matrix")
                 return(inverse_x)
         }
         matrice <- x$get()
